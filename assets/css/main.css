@@ -1,0 +1,160 @@
+/*
+---- Font ----
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+---- Layout ----
+ */
+header {
+  min-height: 15vh;
+}
+footer {
+  min-height: 10vh;
+}
+.content {
+  min-height: 75vh;
+}
+
+/*
+---- Common styles ----
+ */
+header,
+footer {
+  background: #505050;
+}
+.logo,
+.copyright {
+  color: #fff;
+}
+a:hover,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+button,
+.button_login,
+.button_upload {
+  background: #9cc900;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  transition: all 0.5s;
+}
+button:hover,
+.button_login:hover,
+.button_upload:hover {
+  background: #8db404;
+  color: #fff;
+}
+.content {
+  color: #505050;
+}
+
+/*
+---- Header ----
+ */
+.logo {
+  font-size: 40px;
+  font-weight: 100;
+}
+.button_sign_in,
+.button_registration,
+.button_exit {
+  width: 130px;
+  height: 30px;
+  margin-left: 5px;
+}
+.user_header {
+  color: #fff;
+  font-weight: 300;
+  transition: all 0.5s;
+}
+.user_header:hover {
+  color: #8db404;
+}
+
+/*
+---- Content ----
+ */
+.welcome,
+.welcome h1 {
+  line-height: 1;
+  font-weight: 300;
+}
+.welcome h1{
+  font-size: 90px;
+}
+.welcome p:nth-child(2) {
+  font-size: 25px;
+}
+.welcome p:nth-child(3) {
+  font-size: 20px
+}
+form,
+input,
+.button_login {
+  width: 100%;
+}
+form h3 {
+  font-weight: 300;
+}
+form p,
+.account form p {
+  width: 300px;
+  margin: 0 auto 15px;
+}
+.button_login,
+.button_upload {
+  height: 30px;
+  margin: 10px auto 0;
+}
+#login_form,
+#register_form {
+  display: none;
+}
+.account {
+  width: 100%;
+  text-align: center;
+}
+.account form {
+  margin: auto;
+}
+.account p {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  width: 100%;
+  margin-bottom: 0;
+}
+.account h6 {
+  font-weight: 400;
+}
+.file_list li p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 300;
+}
+.file_list li p span {
+  font-weight: 700;
+}
+.file_list li p a {
+  transition: all 0.5s;
+  font-size: 14px;
+}
+.file_list li p a:hover {
+  color: #8db404;
+}
+
+/*
+---- Footer ----
+ */
+.copyright {
+  font-size: 14px;
+  font-weight: 100;
+}
